@@ -1,22 +1,27 @@
+# API keys and secrets
 .env
 .env.*
+!.env.example
+
+# Python environment
 venv/
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Personal photos and music
 Input/*.jpg
 Input/*.JPG
 Input/*.jpeg
 Input/*.png
 Input/*.mp3
 
+# Generated clips and temporary task files
 generated_clips/
 
+# Generated output
 Output/*.mp4
 Output/*.png
 
+# Logs
 *.log
-
-# Exclude all generated clips and task files
-generated_clips/
