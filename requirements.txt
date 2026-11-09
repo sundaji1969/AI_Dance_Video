@@ -1,0 +1,8 @@
+Pillow==11.3.0
+moviepy==2.2.1
+numpy
+imageio-ffmpeg
+rembg
+onnxruntime
+python-dotenv
+requests
