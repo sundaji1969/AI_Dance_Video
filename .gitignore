@@ -1,0 +1,22 @@
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+Input/*.jpg
+Input/*.JPG
+Input/*.jpeg
+Input/*.png
+Input/*.mp3
+
+generated_clips/
+
+Output/*.mp4
+Output/*.png
+
+*.log
+
+# Exclude all generated clips and task files
+generated_clips/
